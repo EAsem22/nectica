@@ -1,0 +1,7 @@
+.wrap { background: linear-gradient(180deg, #fff, #fff0e0); }
+.card { background: #ffb648; color: #1a1a1a; border-radius: 14px; padding: 1.25rem; display: grid; grid-template-columns: 1fr auto; gap: 1rem; align-items: center; box-shadow: var(--shadow-md); }
+.btnDark { text-decoration: none; background: #1a1a1a; color: #fff; padding: 0.7rem 1rem; border-radius: 999px; font-weight: 700; }
+.actions { display: flex; align-items: center; }
+@media (max-width: 700px) { .card { grid-template-columns: 1fr; } }
+
+

@@ -1,0 +1,11 @@
+.sectionAlt { background: linear-gradient(180deg, #eaf7f1, #ffffff); }
+.title { text-align: center; color: var(--brand-dark); font-size: clamp(1.4rem, 2.5vw, 2rem); margin-bottom: 1.5rem; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.item { background: var(--bg-surface); border-radius: 12px; text-align: center; padding: 1.2rem; box-shadow: var(--shadow-md); }
+.value { font-size: clamp(1.4rem, 3vw, 2rem); color: var(--brand-primary); font-weight: 800; }
+.label { color: var(--text-muted); margin-top: 0.3rem; }
+
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 540px) { .grid { grid-template-columns: 1fr; } }
+
+

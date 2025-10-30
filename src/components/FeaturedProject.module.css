@@ -1,0 +1,9 @@
+.card { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; align-items: center; background: var(--bg-surface); border-radius: 14px; padding: 1.25rem; box-shadow: var(--shadow-md); }
+.media img { width: 100%; height: auto; border-radius: 12px; }
+.copy h2 { margin: 0 0 0.5rem; color: var(--brand-dark); }
+.copy p { color: var(--text-muted); }
+.link { display: inline-block; margin-top: 0.75rem; color: var(--brand-primary); font-weight: 700; text-decoration: none; }
+
+@media (max-width: 900px) { .card { grid-template-columns: 1fr; } }
+
+

@@ -1,0 +1,12 @@
+.header h2 { text-align: center; color: var(--brand-dark); font-size: clamp(1.4rem, 2.5vw, 2rem); margin-bottom: 1.5rem; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.card { background: var(--bg-surface); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-md); }
+.card img { width: 100%; height: 180px; object-fit: cover; display: block; }
+.card h3 { margin: 0.8rem 1rem 1rem; font-size: 1.05rem; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .card img { height: 220px; }
+}
+
+

@@ -1,0 +1,12 @@
+.title { text-align: center; font-size: clamp(1.4rem, 2.5vw, 2rem); color: var(--brand-dark); margin-bottom: 1.5rem; }
+.row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.card { background: var(--bg-surface); border-radius: 12px; padding: 1.2rem; box-shadow: var(--shadow-md); text-align: left; }
+.icon { font-size: 1.5rem; }
+.card h3 { margin: 0.5rem 0; }
+.card p { color: var(--text-muted); }
+
+@media (max-width: 900px) {
+  .row { grid-template-columns: 1fr; }
+}
+
+

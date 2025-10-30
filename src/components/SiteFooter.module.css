@@ -1,0 +1,10 @@
+.footer { background: #101315; color: #e6e6e6; padding-top: 2rem; }
+.cta { text-align: center; padding-bottom: 2rem; }
+.cta h3 { margin: 0 0 0.75rem; }
+.row { display: inline-flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+.buttonLike { appearance: none; -webkit-appearance: none; cursor: pointer; font: inherit; color: inherit; background: none; }
+.btnPrimary { text-decoration: none; background: var(--brand-primary); color: white; padding: 0.6rem 0.9rem; border-radius: 999px; font-weight: 700; display: inline-block; }
+.btnGhost { text-decoration: none; border: 1px solid #3a3f42; color: #e6e6e6; padding: 0.6rem 0.9rem; border-radius: 999px; display: inline-block; background: transparent; }
+.bottom { border-top: 1px solid #2a2f32; padding: 1rem 0; text-align: center; color: #a9b0b4; }
+
+

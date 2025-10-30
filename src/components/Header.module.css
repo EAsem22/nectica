@@ -1,0 +1,90 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--bg-surface);
+  box-shadow: var(--shadow-md);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.left { display: flex; align-items: center; gap: 1rem; }
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.logoBox {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  background: var(--brand-primary);
+  color: white;
+  font-weight: 800;
+  border-radius: 6px;
+}
+
+.brandText {
+  color: var(--brand-dark);
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.menuButton {
+  display: none;
+  background: transparent;
+  border: none;
+}
+
+.menuIcon {
+  width: 28px;
+  height: 2px;
+  background: var(--brand-dark);
+  position: relative;
+}
+.menuIcon::before, .menuIcon::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  height: 2px;
+  background: var(--brand-dark);
+}
+.menuIcon::before { top: -7px; }
+.menuIcon::after { top: 7px; }
+
+.leftNav { display: flex; align-items: center; gap: 1rem; }
+.rightNav { display: flex; align-items: center; gap: 1rem; }
+.navMobile { display: none; }
+
+.link {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.donate {
+  text-decoration: none;
+  background: var(--brand-primary);
+  color: white;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .menuButton { display: inline-flex; }
+  .leftNav { display: none; }
+  .navMobile { display: none; }
+  .navOpen { display: grid; gap: 0.75rem; position: absolute; top: 56px; left: 1rem; background: var(--bg-surface); padding: 0.75rem; border-radius: 0.5rem; box-shadow: var(--shadow-md); }
+}
+
+
